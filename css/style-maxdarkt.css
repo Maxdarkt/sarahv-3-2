@@ -1,0 +1,668 @@
+/*---------- Media Queries mini-slides ------------*/
+@media (max-width:600px){
+    /*--------- Bandeau Accueil ----------*/
+    #home-text h1{
+        font-size: 1.4rem!important;
+    }
+    #home-text h2{
+        font-size: 1.6rem!important;
+    }
+    #home-text h3{
+        font-size: 1.1rem!important;
+    }
+    #home-text a{
+        font-size: 0.8rem;
+    }
+    #home-text .content{
+        padding: 0 5%!important;
+    }
+    /*--------- A propos ----------*/
+    #main-content .text-info{
+        padding: 30px 0!important;
+    }
+    #main-content .text-info h2{
+        font-size: 1.8rem;
+    }
+    #main-content .text-info h3{
+        font-size: 1.2rem;
+    }
+    #main-content .text-info p{
+        font-size: 0.8rem;
+    }
+    .picture_Sarah{
+      background-position: -13rem 0rem!important;
+    }
+    /*--------- Mini slides ----------*/
+    .mini-slide{
+        min-height: 650px!important;
+    }
+    .mini-slide_1, .mini-slide_2, .mini-slide_3, .mini-slide_4, .mini-slide_6{
+        padding: 0!important;
+    }
+    .mini-slide h3{
+        font-size: 2rem!important;
+    }
+    .mini-slide h4{
+        font-size: 1.1rem!important;
+    }
+    .mini-slide p{
+        font-size: 0.8rem!important;
+    }
+    .mini-slide li{
+        font-size: 0.8rem!important;
+    }
+    .physio-title{
+        font-size: 1rem!important;
+    }
+    .mini-slide_6 h6 {
+        margin-left: 31%!important;
+        font-size: 0.8rem!important;
+    }
+    .mini-slide_6 h5 {
+        margin-left: 31%!important;
+    }
+    .tab-tarif{
+        width: 30%!important;
+    }
+    .mini-slide_1 h3{
+        text-align: center;
+    }
+    .mini-slide_2__content,
+    .mini-slide_3__content {
+        flex-direction: column!important;
+        flex: none!important;
+        margin-top: 5%;
+    }
+    .mini-slide_2__content{
+        min-height: 555px;
+    }
+    .mini-slide_3__content{
+        min-height: 370px;
+    }
+    .mini-slide__card {
+        width: 100%!important;
+    }
+    .mini-slide__card h4{
+        text-align: left!important;
+    }
+    .mini-slide__card p {
+        text-align: left!important;
+    }
+    .mini-slide_3__bottom{
+        padding: 10px 10px!important;
+        align-self: flex-start!important;
+    }
+    .mini-slide_3__bottom__preview{
+        display: none;
+    }
+    .mini-slide_3__bottom__text h4{
+        text-align: left!important;
+    }
+    .mini-slide_3__bottom__text p{
+        text-align: left!important;
+    }
+    .mini-slide_4{
+        background-size: 150%!important;
+    }
+    /*-------- Gallerie ---------*/
+    .text-gallery__desc h4{
+        font-size: 1rem!important;
+        margin-bottom: 0px!important;
+    }
+    .text-gallery__desc h5{
+        font-size: 0.9rem!important;
+    }
+    .text-gallery__desc p{
+        font-size: 0.8rem!important;
+    }
+    .btn-gallerie{
+        bottom: 90px!important;
+    }
+    /*--------- Contact ----------*/
+    .follow-me{
+        font-size: 2.5rem!important;
+    }
+}
+@media (max-width: 768px){
+    .text-gallery__desc h4{
+        font-size: 1rem!important;
+        margin-bottom: 0px!important;
+    }
+    .text-gallery__desc h5{
+        font-size: 0.9rem!important;
+    }
+    .text-gallery__desc p{
+        font-size: 0.8rem!important;
+    }
+    .bloc-resume h5{
+        margin-top: 0px!important;
+    }
+    .bloc-resume p{
+        margin-bottom: 0px;
+    }
+    .text-gallery{
+        padding: 20px 25px!important;
+    }
+    #texte-gallerie_4 {
+        padding-top: 14px!important;
+        padding-left: 5px!important;
+        padding-right: 5px!important;
+    }
+}
+@media (max-width: 875px){
+    .mini-slide_3__bottom{
+        width: 100%!important;
+    }
+    .mini-slide_3__bottom__text{
+        width: 100%!important;
+    }
+    .mini-slide_3__bottom img{
+        margin-right: 20px;
+    }
+    .container-contact-form{
+        display: flex;
+        justify-content: center;
+        padding: 2% 10%!important;      
+    }
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 1199px){
+    .mini-slide_1, .mini-slide_2, .mini-slide_3, .mini-slide_4, .mini-slide_6{
+        padding: 0 10%;
+    }
+    .mini-slide_3__bottom{
+        width: 60%;
+    }
+    .container-contact-form{
+        height: auto!important;      
+    }
+    .contact-form{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .contact-form h3{
+        width: 100%;
+    }
+    .contact-form p{
+        flex: 0.5;
+    }
+    .btn-brochure{
+        justify-content: center;
+    }
+
+}
+@media (min-width:1200px){
+    .mini-slide_3__bottom{
+        width: 70%;
+    }
+    .asca{
+      display: inline-block;
+      margin-top: 0.5rem;
+    }
+}
+
+/*-------------------------PART 1 : Bandeau Accueil---------------------*/
+.home-part{
+  max-width: 100%;
+}
+.first-slide {
+    background: url('../img/accueil_Sarah_Imbert-Betemps.jpg') center;
+    background-size: cover;
+}
+
+#home-text h1 {
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#home-text h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#home-text h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+/*---------------------PART 2 : Présentation Sarah + mini slide--------------*/
+#main-content .content-info h2{ /*A propos*/
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#main-content .content-info h3{ /*A propos*/
+    font-size: 1.5rem;
+}
+
+/*----------mini slide 4 ----------------*/
+.picture_Sarah{
+  background-image: url('../img/Sarah_Imbert_Betemps_chromopuncture_therapeute.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(0.9);
+  min-height: 600px;
+  /*box-shadow: 0 0 8px 8px white inset;*/
+}
+
+.signature{
+    font-size: 15px;
+    text-align: right;
+    margin-top: 15px;
+
+}
+
+/*--------General-----------*/
+#slide-info{
+  position: relative;
+  margin: 0px!important;
+}
+
+/*----- button slide pev and next -----*/
+.slide-prev, .slide-next {
+  position: absolute;
+  top: calc(50% - 30px);
+  background-color:#1F232C;
+  opacity: 60%;
+  width: 30px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all ease 400ms;
+  color: white;
+  cursor: pointer;
+}
+
+.slide-prev {
+  left: 0rem;
+}
+
+.slide-next {
+  right: 0rem;
+}
+.slide-prev:hover, .slide-next:hover {
+  opacity: 80%;
+}
+
+.slide-prev:hover > i, .slide-next:hover > i {
+  transform: scale(1.15);
+}
+
+/*----- slide dots -----*/
+
+.slide-dots {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+  background-color:#1F232C;
+  opacity: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dots-parent {
+  width: 5rem;
+  height: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dots-child {
+  display: inline-block;
+  width: 100%;
+  height: 0.3rem;
+  border-radius: 2px;
+  opacity: 60%;
+  background-color: white;
+  transition: all ease 400ms;
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+}
+
+.dots-parent:hover > .dots-child {
+  opacity: 100%;
+}
+
+.dots-active {
+  opacity: 100%;
+}
+
+.mini-slide {
+    min-height: 650px;
+    color: #2f363b;
+    /* padding: 5px 10px; */
+}
+
+.mini-slide p,
+.justify {
+    text-align: justify;
+}
+.mini-slide h3{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.mini-slide h4 {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+/*------ mini-slide_1 --------*/
+.mini-slide_1 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    padding: 20px!important;
+}
+
+.mini-slide_1 h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*--------- mini-slide 2 & 3 ------------*/
+.mini-slide_2,
+.mini-slide_3 {
+    display: flex;
+    flex-direction: column;
+    min-height: 580px;
+    margin-top: 2%;
+    padding: 20px!important;
+}
+
+.mini-slide__title {
+    flex: 0.2 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.mini-slide_2__content,
+.mini-slide_3__content {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    flex: 0.6;
+    margin-top: 5%;
+}
+
+.mini-slide__card {
+    width: 48%;
+}
+
+.underline-h3 {
+    width: 27%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #000;
+}
+
+.mini-slide__card p {
+    text-align: center;
+}
+
+.mini-slide_3__bottom { /*Pour les enfants*/
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    border: 1px solid #000;
+    padding: 20px 20px;
+}
+.mini-slide_3__bottom__preview {
+    width: 30%;
+}
+
+.mini-slide_3__bottom__text {
+    width: 70%;
+}
+
+.mini-slide_3__bottom__text h3{
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.mini-slide_3__bottom__text p {
+    text-align: center;
+}
+
+/*--- Couleurs ---*/
+
+.color-1 {
+    color: #a04250 !important;
+}
+.color-2 {
+    color: #933a66 !important;
+}
+.color-3 {
+    color: #c5805f !important;
+}
+.color-4 {
+    color: #c95f83 !important;
+}
+.color-5 {
+    color: #e6b362 !important;
+}
+.color-6 {
+    color: #d8a2b0 !important;
+}
+
+.color-7 {
+    color: #704e66 !important;
+}
+.color-8 {
+    color: #555473 !important;
+}
+.color-9 {
+    color: #a284aa !important;
+}
+.color-10 {
+    color: #5a879e !important;
+}
+.color-11 {
+    color: #a0b572 !important;
+}
+
+/*---------- mini slide 4 ------------------*/
+.mini-slide_4 {
+    margin-top: 12%;
+    padding: 20px!important;
+}
+
+.mini-slide_4 ul {
+    padding: 20px 20px;
+}
+
+.mini-slide_4 li {
+    list-style: square;
+    margin-top: 5px;
+}
+
+.space-under{
+    margin-bottom: 20px;
+}
+/*----------------------- PART 3 : Gallerie 4 images ------------------------*/
+
+.gallerie-image {
+    width: 100% !important;
+    height: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-gallery {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 50px;
+    z-index: 10;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text-gallery__desc {
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex !important;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.text-gallery p{
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+}
+
+.btn-gallerie{
+    position: fixed;
+    bottom: 10px;
+    right: 0px;
+    background: transparent;
+    font-weight: 600;
+    padding: 0.7em 2em;
+    font-size: 14px;
+    color: #ffffff;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 3px;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    transition: all 400ms ease-in-out;
+}
+.btn-gallerie:hover{
+    border: 2px solid rgba(255, 255, 255, 0.7);
+}
+.btn-gallerie:visited{
+  color: #ffffff;
+}
+
+
+/*--------- Mise en forme du texte ---------*/
+.text-gallery__desc h4{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.text-gallery__desc h5{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+.only-phone{
+    display: none;
+}
+/*--------------------- Bloc résumé -------------------*/
+.bloc-resume{
+    border: 2px solid #fff;
+    padding: 5px 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.bloc-resume p{
+    margin-bottom: 20px;
+}
+
+.bloc-resume h5{
+    margin-bottom: 0px;
+}
+
+.double-underline{
+    display: inline-block;
+    width: 20%;
+    border-bottom: 3px double #fff;
+}
+/*------------------------*/
+.kasina {
+    margin-bottom: 5%;
+}
+
+.text-gallery h4,
+.text-gallery p {
+    color: #fff;
+}
+
+#button-arrow-left,
+#button-arrow-right {
+    z-index: 20;
+}
+
+/*-------------------- PART 4 : MAP & CONTACT ------------------------*/
+.contact-form {
+    padding: 15px 50px;
+}
+
+.contact-form h4 {
+    font-size: 2rem !important;
+}
+
+.chromo {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.contact-adress {
+    margin-bottom: 30px;
+}
+
+.follow-me{
+    font-family: stalemate;
+    font-size: 42px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.follow-me img{
+    height: 2rem;
+}
+
+.dark-btn{
+    background: transparent;
+    font-weight: 600;
+    padding: 0.7em 2em;
+    font-size: 14px;
+    color: #000000;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 3px;
+    border: 2px solid rgba(83, 83, 83, 0.9);
+    transition: all 400ms ease-in-out;
+}
+
+.dark-btn:hover{
+    color: #00af94;
+    border: 2px solid rgba(83, 83, 83, 0.4);
+    text-decoration: none !important;
+    outline: none !important;
+}
+.btn-brochure{
+    width: 100%;
+    display: flex;
+    margin-top: 25px;
+}
+/*---------------------------- PART 5 : Footer -----------------------------*/
+.footer-last {
+    font-style: italic;
+    margin-bottom: 35px;
+}
