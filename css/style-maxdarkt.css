@@ -36,11 +36,11 @@
     .mini-slide{
         min-height: 650px!important;
     }
-    .mini-slide_1, .mini-slide_2, .mini-slide_3, .mini-slide_4, .mini-slide_6{
+    .mini-slide_1, .mini-slide_2, .mini-slide_3, .mini-slide_4, .mini-slide_5 {
         padding: 0!important;
     }
     .mini-slide h3{
-        font-size: 2rem!important;
+        font-size: 1.75rem!important;
     }
     .mini-slide h4{
         font-size: 1.1rem!important;
@@ -54,12 +54,9 @@
     .physio-title{
         font-size: 1rem!important;
     }
-    .mini-slide_6 h6 {
-        margin-left: 31%!important;
-        font-size: 0.8rem!important;
-    }
-    .mini-slide_6 h5 {
-        margin-left: 31%!important;
+    .mini-slide_5 {
+      margin-top: 6%;
+      padding: 10px!important;
     }
     .tab-tarif{
         width: 30%!important;
@@ -67,16 +64,16 @@
     .mini-slide_1 h3{
         text-align: center;
     }
-    .mini-slide_2__content,
-    .mini-slide_3__content {
+    .mini-slide_3__content,
+    .mini-slide_4__content {
         flex-direction: column!important;
         flex: none!important;
         margin-top: 5%;
     }
-    .mini-slide_2__content{
+    .mini-slide_3__content{
         min-height: 555px;
     }
-    .mini-slide_3__content{
+    .mini-slide_4__content{
         min-height: 370px;
     }
     .mini-slide__card {
@@ -88,20 +85,20 @@
     .mini-slide__card p {
         text-align: left!important;
     }
-    .mini-slide_3__bottom{
+    .mini-slide_4__bottom{
         padding: 10px 10px!important;
         align-self: flex-start!important;
     }
-    .mini-slide_3__bottom__preview{
+    .mini-slide_4__bottom__preview{
         display: none;
     }
-    .mini-slide_3__bottom__text h4{
+    .mini-slide_4__bottom__text h4{
         text-align: left!important;
     }
-    .mini-slide_3__bottom__text p{
+    .mini-slide_4__bottom__text p{
         text-align: left!important;
     }
-    .mini-slide_4{
+    .mini-slide_5{
         background-size: 150%!important;
     }
     /*-------- Gallerie ---------*/
@@ -150,13 +147,13 @@
     }
 }
 @media (max-width: 875px){
-    .mini-slide_3__bottom{
+    .mini-slide_4__bottom{
         width: 100%!important;
     }
-    .mini-slide_3__bottom__text{
+    .mini-slide_4__bottom__text{
         width: 100%!important;
     }
-    .mini-slide_3__bottom img{
+    .mini-slide_4__bottom img{
         margin-right: 20px;
     }
     .container-contact-form{
@@ -170,10 +167,10 @@
     }
 }
 @media (max-width: 1199px){
-    .mini-slide_1, .mini-slide_2, .mini-slide_3, .mini-slide_4, .mini-slide_6{
+    .mini-slide_1, .mini-slide_2, .mini-slide_3, .mini-slide_4, .mini-slide_5 {
         padding: 0 10%;
     }
-    .mini-slide_3__bottom{
+    .mini-slide_4__bottom{
         width: 60%;
     }
     .container-contact-form{
@@ -196,7 +193,7 @@
 
 }
 @media (min-width:1200px){
-    .mini-slide_3__bottom{
+    .mini-slide_4__bottom{
         width: 70%;
     }
     .asca{
@@ -362,24 +359,32 @@
     font-weight: bolder;
 }
 
-/*------ mini-slide_1 --------*/
-.mini-slide_1 {
+/*------ mini-slide_1 & 2--------*/
+.mini-slide_1, .mini-slide_2 {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     margin-top: 2%;
-    padding: 20px!important;
+    padding: 10px 40px;
 }
 
-.mini-slide_1 h4 {
+.mini-slide_1 h4, .mini-slide_2 h4 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-/*--------- mini-slide 2 & 3 ------------*/
-.mini-slide_2,
-.mini-slide_3 {
+.mini-slide_1 h5, .mini-slide_2 h5 {
+  font-weight: bolder;
+}
+
+.mini-slide_2 h5 {
+  margin-top: 10px;
+}
+
+/*--------- mini-slide 3 & 4 ------------*/
+.mini-slide_3,
+.mini-slide_4 {
     display: flex;
     flex-direction: column;
     min-height: 580px;
@@ -395,8 +400,8 @@
     text-align: center;
 }
 
-.mini-slide_2__content,
-.mini-slide_3__content {
+.mini-slide_3__content,
+.mini-slide_4__content {
     display: flex;
     flex-flow: wrap row;
     justify-content: space-around;
@@ -419,27 +424,27 @@
     text-align: center;
 }
 
-.mini-slide_3__bottom { /*Pour les enfants*/
+.mini-slide_4__bottom { /*Pour les enfants*/
     display: flex;
     align-self: flex-end;
     align-items: center;
     border: 1px solid #000;
     padding: 20px 20px;
 }
-.mini-slide_3__bottom__preview {
+.mini-slide_4__bottom__preview {
     width: 30%;
 }
 
-.mini-slide_3__bottom__text {
+.mini-slide_4__bottom__text {
     width: 70%;
 }
 
-.mini-slide_3__bottom__text h3{
+.mini-slide_4__bottom__text h3{
     font-size: 1.3rem;
     font-weight: bolder;
 }
 
-.mini-slide_3__bottom__text p {
+.mini-slide_4__bottom__text p {
     text-align: center;
 }
 
@@ -480,17 +485,17 @@
     color: #a0b572 !important;
 }
 
-/*---------- mini slide 4 ------------------*/
-.mini-slide_4 {
-    margin-top: 12%;
-    padding: 20px!important;
+/*---------- mini slide 5 ------------------*/
+.mini-slide_5 {
+    margin-top: 8%;
+    padding: 60px;
 }
 
-.mini-slide_4 ul {
+.mini-slide_5 ul {
     padding: 20px 20px;
 }
 
-.mini-slide_4 li {
+.mini-slide_5 li {
     list-style: square;
     margin-top: 5px;
 }
