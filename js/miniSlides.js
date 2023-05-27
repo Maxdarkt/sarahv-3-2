@@ -169,4 +169,12 @@ $(document).ready(function () {
   // })
 // Partie du code à commenter en mode Production
 //----------FIN Arret du slide en mode DEV------------------//
+
+//------------------------------------------------------//
+//-------------------COPYRIGHT--------------------------//
+//------------------------------------------------------//
+const currentYear = new Date().getFullYear()
+const textCopyright = '© ' + currentYear +  ' Sarah Imbert-Bétemps - CHROMOPUNCTURE'
+$("#copyright-date").text(textCopyright)
+
 })
