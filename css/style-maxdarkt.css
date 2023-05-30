@@ -370,6 +370,7 @@
 }
 
 .mini-slide_1 h4, .mini-slide_2 h4 {
+  text-align: left;
     margin-top: 10px;
     margin-bottom: 10px;
 }
