@@ -105,10 +105,10 @@ $(document).ready(function () {
         launchTimer(false)
         // on gère les cas particulier 0 et 4
         let goToSlide
-        if(slide + action === 5) {
+        if(slide + action === 6) {
           goToSlide = 1
         } else if( slide + action === 0) {
-          goToSlide = 4
+          goToSlide = 5
         } else {
           goToSlide = slide + action
         }

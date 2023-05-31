@@ -366,7 +366,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     margin-top: 2%;
-    padding: 10px 40px;
+    padding: 10px 20px!important;
 }
 
 .mini-slide_1 h4, .mini-slide_2 h4 {
